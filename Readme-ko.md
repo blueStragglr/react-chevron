@@ -10,27 +10,25 @@
 
 ### About
 
-No more '>' in your button, no more complicated image customization.
-
-Insert chevron image that perfectly fit with sibling text by super-light library, which don't have any peer dependencies.
+더이상 ‘>’ 는 그만! 타입스크립트와 리액트 외에 아무 의존성 없는 가벼운 라이브러리로 텍스트처럼 시각보정된 chevron을 넣어 봅시다. 
 
 
 
-### Installation
+
+
+### 설치하기
 
 ```shell
 $ yarn add react-chervron
 ```
 
-The `React-chevron` supports TypeScript.
+
 
 
 
 ### Usage
 
 - Default
-
-![basic](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/basic.png)
 
 ```tsx
 import Chevron from 'react-chevron'
@@ -48,7 +46,9 @@ const myComponent = (...) => {
 }
 ```
 
-Import and use. That's it!
+...끝입니다! 
+
+![basic](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/basic.png)
 
 
 
@@ -79,7 +79,7 @@ const myComponent = (...) => {
 }
 ```
 
-As explained above, you don't have to customize chevron size. It will be automatically fit with sibiling text.
+마찬가지로 별도로 지정해 줘야 하는 옵션은 없습니다. 색과 폰트 크기 모두 적절히 상속됩니다. 
 
 
 
@@ -112,7 +112,7 @@ const myComponent = (...) => {
 
 ```
 
-Four direction options are available. Default direction is  `'right'`.
+4개의 방향을 설정할 수 있습니다. 방향을 입력하지 않았을 때의 기본값은 `'right'` 입니다. 
 
 
 
@@ -144,9 +144,7 @@ const myComponent = (...) => {
 }
 ```
 
-As same as other react component, you can pass `className` as props. 
-
-⚠️ Be aware the `<span>` that wrapping `svg` exists.
+⚠️ span wrapper가 svg를 감싸고 있음에 유의하세요.
 
 
 
@@ -172,7 +170,9 @@ const myComponent = (...) => {
 }
 ```
 
-You can toggle direction as opposit by status.
+항상 180도 회전합니다. 
+
+
 
 
 

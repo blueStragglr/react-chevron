@@ -16,7 +16,7 @@ const Chevron = (props) => {
         down: 'M1.92,1.92h0a6.55,6.55,0,0,1,9.27,0L60.25,51,109.31,1.92a6.55,6.55,0,0,1,9.27,0h0a6.55,6.55,0,0,1,0,9.27L64.89,64.88a6.55,6.55,0,0,1-9.27,0L1.92,11.19A6.55,6.55,0,0,1,1.92,1.92Z',
         left: 'M64.88,1.92h0a6.55,6.55,0,0,1,0,9.27L15.82,60.25l49.06,49.06a6.55,6.55,0,0,1,0,9.27h0a6.54,6.54,0,0,1-9.26,0L1.92,64.89a6.55,6.55,0,0,1,0-9.27l53.7-53.7A6.54,6.54,0,0,1,64.88,1.92Z'
     };
-    return (react_1.default.createElement("span", { className: "chevron-wrapper" },
+    return (react_1.default.createElement("span", { className: `chevron-wrapper ${props.className || ''}` },
         react_1.default.createElement("svg", { className: `chevron-${direction} ${props.reversed ? 'reversed' : ''}`, xmlns: "http://www.w3.org/2000/svg", viewBox: viewBox },
             react_1.default.createElement("g", null,
                 react_1.default.createElement("g", null,

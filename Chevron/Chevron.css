@@ -15,14 +15,15 @@
   width: .8em;
 }
 
+.chevron-wrapper > svg.chevron-up {
+  margin-bottom: .1em;
+}
+
 .chevron-wrapper > svg.chevron-right,
 .chevron-wrapper > svg.chevron-left {
   height: .7em;
-  margin: 0 .12em -.1em;
-}
-
-.chevron-wrapper > svg.chevron-up {
-  margin-bottom: .1em;
+  margin-right: .12em;
+  margin-bottom: -.08em;
 }
 
 .chevron-wrapper > svg.reversed{
