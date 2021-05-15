@@ -2,13 +2,13 @@
 
 
 
-![react-chevron](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/title.png)
+![title.png](https://github.com/blueStragglr/react-chevron/blob/master/image/title.png?raw=true)
 
 
 
 
 
-### About
+## About
 
 No more '>' in your button, no more complicated image customization.
 
@@ -16,7 +16,11 @@ Insert chevron image that perfectly fit with sibling text by super-light library
 
 
 
-### Installation
+- Korean [README](https://github.com/blueStragglr/react-chevron/blob/master/Readme-ko.md) is available 😉
+
+
+
+## Installation
 
 ```shell
 $ yarn add react-chervron
@@ -26,9 +30,9 @@ The `React-chevron` supports TypeScript.
 
 
 
-### Usage
+## Usage
 
-- Default
+### Default
 
 ![basic](https://github.com/blueStragglr/react-chevron/blob/master/image/basic.png?raw=true)
 
@@ -52,7 +56,9 @@ Import and use. That's it!
 
 
 
--  Size & Color
+
+
+### Size & Color
 
 ![size.png](https://github.com/blueStragglr/react-chevron/blob/master/image/size.png?raw=true)
 
@@ -83,9 +89,11 @@ As explained above, you don't have to customize chevron size. It will be automat
 
 
 
-- Direction
 
-  ![direction](https://github.com/blueStragglr/react-chevron/blob/master/image/direction.png?raw=true)
+
+### Direction
+
+![direction](https://github.com/blueStragglr/react-chevron/blob/master/image/direction.png?raw=true)
 
 ```tsx
 import Chevron from 'react-chevron'
@@ -116,7 +124,9 @@ Four direction options are available. Default direction is  `'right'`.
 
 
 
-- className
+
+
+### className
 
 ![tilt.png](https://github.com/blueStragglr/react-chevron/blob/master/image/tilt.png?raw=true)
 
@@ -150,7 +160,9 @@ As same as other react component, you can pass `className` as props.
 
 
 
-- Rotate animation
+
+
+### Rotate animation
 
 ![rotate.gif](https://github.com/blueStragglr/react-chevron/blob/master/image/rotate.gif?raw=true)
 
@@ -176,7 +188,9 @@ You can toggle direction as opposit by status.
 
 
 
-### Copyright
+
+
+## Copyright
 
 Open License 😎
 
@@ -184,3 +198,6 @@ You can use it to commercial, non-commercial either without any charge.
 
 Also, there is no need to specify the author's name separately.
 
+
+
+Author: blueStragglr (Oortcloud1599@gmail.com) [https://bluestragglr.com]

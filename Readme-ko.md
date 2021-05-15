@@ -2,33 +2,37 @@
 
 
 
-![react-chevron](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/title.png)
+![title.png](https://github.com/blueStragglr/react-chevron/blob/master/image/title.png?raw=true)
 
 
 
 
 
-### About
+## 소개
 
-더이상 ‘>’ 는 그만! 타입스크립트와 리액트 외에 아무 의존성 없는 가벼운 라이브러리로 텍스트처럼 시각보정된 chevron을 넣어 봅시다. 
+버튼에 '>' 는 이제 그만! 이미지 조정도 그만... 😢
+
+텍스트 스타일에 따라 자동으로 조정되는 꺽쇠를 컴포넌트 형태로 사용해 보세요.
+
+React와 TypeScript 이외에는 아무 dependecy도 없는 가벼운 라이브러리입니다. 😎
 
 
 
-
-
-### 설치하기
+## 설치
 
 ```shell
 $ yarn add react-chervron
 ```
 
+`React-chevron` 라이브러리는 TypeScript를 지원합니다. 
 
 
 
+## 사용법
 
-### Usage
+### 기본형
 
-- Default
+![basic](https://github.com/blueStragglr/react-chevron/blob/master/image/basic.png?raw=true)
 
 ```tsx
 import Chevron from 'react-chevron'
@@ -46,17 +50,15 @@ const myComponent = (...) => {
 }
 ```
 
-...끝입니다! 
-
-![basic](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/basic.png)
+import하고 사용하세요. 끝입니다!
 
 
 
--  Size & Color
+### Size & Color
 
-![size](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/size.png)
+![size.png](https://github.com/blueStragglr/react-chevron/blob/master/image/size.png?raw=true)
 
-![color](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/color.png)
+![color](https://github.com/blueStragglr/react-chevron/blob/master/image/color.png?raw=true)
 
 ```tsx
 import Chevron from 'react-chevron'
@@ -79,13 +81,13 @@ const myComponent = (...) => {
 }
 ```
 
-마찬가지로 별도로 지정해 줘야 하는 옵션은 없습니다. 색과 폰트 크기 모두 적절히 상속됩니다. 
+소개한 것 처럼, 따로 폰트 사이즈나 컬러를 설정해 줄 필요가 없습니다. 형제 DOM을 따라서 설정됩니다. 
 
 
 
-- Direction
+### Direction
 
-  ![direction](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/direction.png)
+![direction](https://github.com/blueStragglr/react-chevron/blob/master/image/direction.png?raw=true)
 
 ```tsx
 import Chevron from 'react-chevron'
@@ -112,13 +114,13 @@ const myComponent = (...) => {
 
 ```
 
-4개의 방향을 설정할 수 있습니다. 방향을 입력하지 않았을 때의 기본값은 `'right'` 입니다. 
+네 개의 방향을 설정할 수 있습니다. 기본값은  `'right'` 입니다.
 
 
 
-- className
+### className
 
-![tilt](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/tilt.png)
+![tilt.png](https://github.com/blueStragglr/react-chevron/blob/master/image/tilt.png?raw=true)
 
 ```tsx
 import Chevron from 'react-chevron'
@@ -144,13 +146,17 @@ const myComponent = (...) => {
 }
 ```
 
-⚠️ span wrapper가 svg를 감싸고 있음에 유의하세요.
+다른 리액트 컴포넌트들 처럼  `className` 을 넘겨줄 수 있습니다.
+
+⚠️ `<svg> ` 를 감싸고 있는 `<span>`  요소가 있음에 주의하세요.
 
 
 
-- Rotate animation
 
-![rotate](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/rotate.gif)
+
+### Rotate animation
+
+![rotate.gif](https://github.com/blueStragglr/react-chevron/blob/master/image/rotate.gif?raw=true)
 
 ```tsx
 import Chevron from 'react-chevron'
@@ -170,17 +176,21 @@ const myComponent = (...) => {
 }
 ```
 
-항상 180도 회전합니다. 
+상태를 변경해서 회전하는 애니메이션 효과를 줄 수도 있습니다. 드롭다운 등에 활용 해 보세요!
 
 
 
 
 
-### Copyright
+## 저작권
 
-Open License 😎
+오픈 라이센스 프로젝트입니다 😎
 
-You can use it to commercial, non-commercial either without any charge. 
+상업적, 비상업적 프로젝트에 모두 사용하셔도 되고, 별도의 비용은 없습니다.
 
-Also, there is no need to specify the author's name separately.
+따로 저작권자를 명시할 필요는 없습니다. 해주시면 좋긴 하지만요!
+
+
+
+Author: blueStragglr (Oortcloud1599@gmail.com) [https://bluestragglr.com]
 
