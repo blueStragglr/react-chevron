@@ -10,9 +10,9 @@
 
 ## About
 
-No more '>' in your button, no more complicated image customization.
+No more A in your button, no more complicated image customization.
 
-Insert chevron image that perfectly fit with sibling text by super-light library, which don't have any peer dependencies.
+Insert chevron image that perfectly fits with sibling text by the super-light library, which doesn't have any peer dependencies.
 
 
 
@@ -85,9 +85,9 @@ const myComponent = (...) => {
 }
 ```
 
-As explained above, you don't have to customize chevron size. It will be automatically fit with sibiling text.
+As explained above, you don't have to customize chevron size. It will be automatically fit with sibling text.
 
-
+*Inline styles are for the convenience of creating examples. You may use a CSS file or a Styled Component at all.
 
 
 
@@ -120,7 +120,7 @@ const myComponent = (...) => {
 
 ```
 
-Four direction options are available. Default direction is  `'right'`.
+Four direction options are available. The default direction is  `'right'`.
 
 
 
@@ -154,7 +154,7 @@ const myComponent = (...) => {
 }
 ```
 
-As same as other react component, you can pass `className` as props. 
+As same as other react components, you can pass `className` as props. 
 
 ⚠️ Be aware the `<span>` that wrapping `svg` exists.
 
@@ -184,7 +184,7 @@ const myComponent = (...) => {
 }
 ```
 
-You can toggle direction as opposit by status.
+You can toggle direction as opposed by toggle status.
 
 
 
@@ -194,7 +194,7 @@ You can toggle direction as opposit by status.
 
 Open License 😎
 
-You can use it to commercial, non-commercial either without any charge. 
+You can use it for commercial, non-commercial either without any charge. 
 
 Also, there is no need to specify the author's name separately.
 
