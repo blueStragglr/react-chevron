@@ -1,6 +1,6 @@
 {
   "name": "react-chevron",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The chevron component that works as inline character in React",
   "main": "index.ts",
   "scripts": {
@@ -17,7 +17,7 @@
     "Icon"
   ],
   "author": "blueStragglr <oortcloud1599@gmail.com> (https://bluestragglr.com)",
-  "license": "MIT",
+  "license": "Open License",
   "bugs": {
     "url": "https://github.com/blueStragglr/react-chevron/issues"
   },
