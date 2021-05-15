@@ -1,6 +1,6 @@
 {
-  "name": "react-simple-chevron",
-  "version": "0.2.0",
+  "name": "react-chevron",
+  "version": "0.4.0",
   "description": "The chevron component that works as inline character in React",
   "main": "index.ts",
   "scripts": {
