@@ -1,0 +1,29 @@
+{
+  "name": "react-chevron",
+  "version": "0.1.0",
+  "description": "The chevron component that works as inline character in React",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueStragglr/react-chevron.git"
+  },
+  "keywords": [
+    "Chevron"
+  ],
+  "author": "blueStragglr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blueStragglr/react-chevron/issues"
+  },
+  "homepage": "https://github.com/blueStragglr/react-chevron#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.5"
+  }
+}

@@ -1,0 +1,31 @@
+.chevron-wrapper {
+  margin-left: 0.2em;
+  margin-right: 0.36em;
+  overflow: visible;
+}
+
+.chevron-wrapper > svg{
+  vertical-align: baseline;
+  transition: .25s ease-in-out;
+  fill: currentColor;
+}
+
+.chevron-wrapper > svg.chevron-down,
+.chevron-wrapper > svg.chevron-up {
+  width: .8em;
+}
+
+.chevron-wrapper > svg.chevron-right,
+.chevron-wrapper > svg.chevron-left {
+  height: .7em;
+  margin: 0 .12em -.1em;
+}
+
+.chevron-wrapper > svg.chevron-up {
+  margin-bottom: .1em;
+}
+
+.chevron-wrapper > svg.reversed{
+  transform: rotate(180deg);
+}
+
