@@ -30,7 +30,7 @@ The `React-chevron` supports TypeScript.
 
 - Default
 
-![basic](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/basic.png)
+![basic](https://github.com/blueStragglr/react-chevron/blob/master/image/basic.png?raw=true)
 
 ```tsx
 import Chevron from 'react-chevron'
@@ -54,9 +54,9 @@ Import and use. That's it!
 
 -  Size & Color
 
-![size](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/size.png)
+![size.png](https://github.com/blueStragglr/react-chevron/blob/master/image/size.png?raw=true)
 
-![color](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/color.png)
+![color](https://github.com/blueStragglr/react-chevron/blob/master/image/color.png?raw=true)
 
 ```tsx
 import Chevron from 'react-chevron'
@@ -85,7 +85,7 @@ As explained above, you don't have to customize chevron size. It will be automat
 
 - Direction
 
-  ![direction](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/direction.png)
+  ![direction](https://github.com/blueStragglr/react-chevron/blob/master/image/direction.png?raw=true)
 
 ```tsx
 import Chevron from 'react-chevron'
@@ -118,7 +118,7 @@ Four direction options are available. Default direction is  `'right'`.
 
 - className
 
-![tilt](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/tilt.png)
+![tilt.png](https://github.com/blueStragglr/react-chevron/blob/master/image/tilt.png?raw=true)
 
 ```tsx
 import Chevron from 'react-chevron'
@@ -152,7 +152,7 @@ As same as other react component, you can pass `className` as props.
 
 - Rotate animation
 
-![rotate](/Users/blueStragglr/WebstormProjects/yarn/react-chevron/image/rotate.gif)
+![rotate.gif](https://github.com/blueStragglr/react-chevron/blob/master/image/rotate.gif?raw=true)
 
 ```tsx
 import Chevron from 'react-chevron'
