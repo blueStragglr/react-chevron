@@ -10,7 +10,7 @@
 
 ## About
 
-No more A in your button, no more complicated image customization.
+No more '>' in your button, no more complicated image customization.
 
 Insert chevron image that perfectly fits with sibling text by the super-light library, which doesn't have any peer dependencies.
 
