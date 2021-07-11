@@ -1,3 +1,3 @@
-import Chevron from './ChevronRight/Chevron'
+import Chevron from './Chevron/Chevron'
 
 export default Chevron
