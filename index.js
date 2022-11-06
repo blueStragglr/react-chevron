@@ -3,5 +3,5 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const Chevron_1 = __importDefault(require("./ChevronRight/Chevron"));
+const Chevron_1 = __importDefault(require("./Chevron/Chevron"));
 exports.default = Chevron_1.default;
